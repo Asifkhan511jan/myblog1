@@ -4,16 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PostDto{
+public class ErrorDetails {
+    private  String message;
 
-    private long id;
-    private String title;
-    private String description;
-    private String content;
+    private Date date;
 
-
+    private String url;
 }

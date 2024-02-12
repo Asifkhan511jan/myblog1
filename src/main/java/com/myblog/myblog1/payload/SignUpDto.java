@@ -4,16 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PostDto{
+public class SignUpDto {
 
-    private long id;
-    private String title;
-    private String description;
-    private String content;
-
-
+    private String name;
+    private  String username;
+    private String email;
+    private  String password;
+    private  String roleType;
 }
